@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src",
+        "paths": {
+            "containers": ["src/containers/*"],
+            "views": ["src/views/*"],
+            "components": ["src/components/*"],
+            "assets": ["src/assets/*"],
+            "repositories": ["src/repositories/*"],
+            "routes": ["src/routes/*"],
+            "services": ["src/services/*"],
+            "css": ["src/css/*"]
+        }
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
